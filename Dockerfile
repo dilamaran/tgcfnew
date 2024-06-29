@@ -13,5 +13,5 @@ COPY . .
 RUN poetry build && \
     /venv/bin/pip install --upgrade pip wheel setuptools &&\
     /venv/bin/pip install dist/*.whl
-EXPOSE 8501
+EXPOSE 80
 CMD tgcf-web
