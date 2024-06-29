@@ -1,6 +1,7 @@
 FROM python:3.10
 ENV VENV_PATH="/venv"
 ENV PATH="$VENV_PATH/bin:$PATH"
+ENV PASSWORD=saf3532jj35oip23532ljfklj23jl324jk234jk234230ojfsjd;flwerwer45we56rw5erew
 WORKDIR /app
 RUN apt-get update && \
     apt-get install -y --no-install-recommends apt-utils && \
